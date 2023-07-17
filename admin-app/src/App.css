@@ -1,0 +1,218 @@
+.App {
+    background-color: #1d1d1d;
+    min-height: 100vh;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.body-container {
+    background-color: white;
+    margin: 1% 1%;
+    width: 100%;
+    height: 85vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(192, 192, 213);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(144, 135, 135);
+}
+
+.sidebar-container {
+    background-color: transparent;
+    margin: 1% 0%;
+    width: 12%;
+    height: 85vh;
+}
+
+.navbar-container {
+    background-color: transparent;
+    width: 96%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.fullbody-container {
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btn:disabled {
+    background-color: gray;
+    color: white;
+    cursor: not-allowed;
+}
+
+.btn:disabled:hover {
+    background-color: gray;
+    color: white;
+    cursor: not-allowed;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #0D6EFD;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-warning {
+    background-color: #FFC107;
+    color: black;
+}
+
+.btn-warning:hover {
+    background-color: #ffca2c;
+}
+
+.btn-danger {
+    background-color: #DC3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #bb2d3b;
+}
+
+.btn-success {
+    background-color: #28A745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-height: 600px) {
+    .body-container {
+        width: 85%;
+        height: 81vh;
+    }
+}
+
+@media(max-height: 540px) {
+    .body-container {
+        width: 85%;
+        height: 79vh;
+    }
+}
+
+@media(max-height: 500px) {
+    .body-container {
+        width: 85%;
+        height: 77vh;
+    }
+}
+
+@media(max-height: 445px) {
+    .body-container {
+        width: 85%;
+        height: 75vh;
+    }
+}
+
+@media(max-height: 410px) {
+    .body-container {
+        width: 85%;
+        height: 73vh;
+    }
+}
+
+@media(max-height: 380px) {
+    .body-container {
+        width: 85%;
+        height: 70vh;
+    }
+}
+
+@media(max-height: 350px) {
+    .body-container {
+        width: 85%;
+        height: 67vh;
+    }
+}
+
+@media(max-height: 310px) {
+    .body-container {
+        width: 85%;
+        height: 65vh;
+    }
+}
+
+@media(max-height: 292px) {
+    .body-container {
+        width: 85%;
+        height: 62vh;
+    }
+}
+
+@media(max-height: 270px) {
+    .body-container {
+        width: 85%;
+        height: 60vh;
+    }
+}
+
+@media(max-height: 255px) {
+    .body-container {
+        width: 85%;
+        height: 57vh;
+    }
+}
+
+@media(max-height: 240px) {
+    .body-container {
+        width: 85%;
+        height: 53vh;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}

@@ -1,0 +1,123 @@
+button.sidebar-btn {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    padding: 15px 5px 15px 20px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+button.sidebar-sub-btn {
+    padding: 0;
+    margin-left: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+div.sidebar-btn:hover {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #141414;
+}
+
+div.hover-css {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #141414;
+}
+
+div.sidebar-btn {
+    margin-bottom: 20px;
+}
+
+.logo-text {
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-inline {
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.more-icon {
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.more-icon:hover {
+    cursor: pointer;
+    background-color: #141414;
+}
+
+.prof-pic-nav {
+    width: 40px;
+    height: 40px;
+}
+
+.user-nav {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.tooltip {
+    position: absolute;
+    top: 25px;
+    left: 160px;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 999;
+}
+
+.dropdown-enter {
+    animation: enter 1s;
+}
+
+@keyframes zoom-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.dropdown-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.dropdown-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.dropdown-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s, transform 0.3s;
+}
